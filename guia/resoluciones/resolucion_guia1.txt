@@ -15,14 +15,12 @@ Cuando un cjto es de 1 elemento, si , son todos iguales, y esto vale para todos 
 
 caso n = 2:
 Tenemos un conjunto de 2 elementos, por H.I sabemos que se cumple que para un conjunto de un elemento son todos iguales entre si, pero 
-no tienen porque ser iguales el elemento de estos dos conjuntos, por ejemplo del conjunto N2 = {3,4}, obtengo el subconjunto A = {3} y 
+deberia cumplirse para el caso  del conjunto N2 = {3,4}, con |N2| = 2  obtengo el subconjunto A = {3} y 
 B = {4} , y podemos ver que A /= B (3 /= 4).
 
 
 Ejercicio 12
 Probar por inducción que 1 + 3 + 5 + . . . + (2n + 1) = (n + 1)2 para todo n ≥ 0.
-
-
 
 
 Ejercicio 13

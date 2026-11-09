@@ -1,0 +1,21 @@
+Discutir (brevemente) las ventajas y desventajas en cuanto a la complejidad temporal y espacial 
+de las siguientes
+implementaciones de un conjunto de vecindarios para un grafo G, de acuerdo a las siguientes operaciones:
+Operaciones
+
+1. Inicializar la estructura a partir de una secuencia de vértices y una secuencia de aristas de G.
+O(n + m)
+2. Determinar si dos vértices v y w son adyacentes.
+O(n)
+3. Recorrer y/o procesar el vecindario N(v) de un vértice v dado.
+O(m)
+4. Insertar un vértice v con su conjunto de vecinos N(v).
+O(n + m)
+5. Insertar una arista (v, w).
+O(1)
+6. Remover un vértice v con todas sus adyacencias.
+O(n)
+7. Remover una arista (v, w).
+O()
+8. Mantener un orden de N(v) de acuerdo a algún invariante que permita recorrer cada vecindario en
+un orden dado
